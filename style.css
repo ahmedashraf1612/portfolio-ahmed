@@ -130,7 +130,7 @@ h2 {
 #contact h2 {
   margin-bottom: 20px;
   font-size: 2rem;
-  color: #0ea5e9;
+  color: #0f172a;
 }
 
 .contact-info {
@@ -235,7 +235,9 @@ body.dark-mode .card:hover {
 body.dark-mode #contact a {
     color: #f1f5f9;
 }
-
+body.dark-mode #contact h2 {
+    color: #0ea5e9;
+}
 body.dark-mode #contact a:hover {
     color: #94a3b8;
 }
@@ -275,4 +277,5 @@ body.dark-mode footer {
     }
 
 }
+
 
