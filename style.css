@@ -122,18 +122,38 @@ h2 {
 }
 
 /* Contact */
-#contact a {
-    color: #0f172a;
-    text-decoration: none;
-    margin: 10px 30px;
-    font-size: 25px;
+#contact {
+  text-align: center;
+  margin: 40px 0;
 }
 
-#contact a:hover {
-    scale: 1.2;
-    color: #475569;
-    transition: 0.3s;
+#contact h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #0f172a;
 }
+
+.contact-info {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-info a {
+  color: #0f172a;
+  text-decoration: none;
+  margin: 10px 30px;
+  font-size: 25px;
+  padding: 10px 20px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.contact-info a:hover {
+  transform: scale(1.2);
+  color: #475569;
+}
+
 
 .mode-switch {
     position: fixed;
@@ -253,4 +273,5 @@ body.dark-mode footer {
     .card {
         width: 95%;
     }
+
 }
